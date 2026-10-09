@@ -1,0 +1,29 @@
+# ==============================================================================
+# ARCHIVOS MULTIMEDIA (En cualquier carpeta o subcarpeta)
+# ==============================================================================
+# Imágenes
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.webp
+*.svg
+*.ico
+
+# Videos
+*.mp4
+
+# Audio (Por si acaso)
+*.mp3
+*.wav
+*.ogg
+*.flac
+*.m4a
+
+# ==============================================================================
+# ARCHIVOS REQUERIDOS POR PYTHON (Compilados, entornos y caché)
+# ==============================================================================
+# Entornos virtuales
+venv/
