@@ -1,0 +1,4 @@
+Estudiante: Luis Alberto Cabrera Quispe
+
+Me genero algo de confusion el ejercicio 3, no sabia si poner los bordes sobre la imagen gris o sacar los bordes de la imagen gris y añadirlos en la composicion
+De cualquier forma estan los dos resultados
