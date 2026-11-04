@@ -4,11 +4,11 @@ import matplotlib.pyplot as plt
 ruta = "C:/Users/Beto/Documents/avance 2026-II/multimedia/resource/images/"
 ninio = cv2.imread(ruta + "ninio.jpg")
 
-gris = cv2.cvtColor(ninio, cv2.COLOR_BGR2GRAY)
-bordes = cv2.Canny(gris, 100, 200)
-resultado = ninio.copy()
+gris = cv2.cvtColor(ninio, cv2.COLOR_BGR2GRAY)#convierte la imagen leida en una escala de grises de un solo canal
+bordes = cv2.Canny(gris, 100, 200)#canny detecta los bordes
+resultado = ninio.copy()#realiza una copia para que no afecte a la imgen orginal
 
-resultado[bordes>0]=[255,0,0]
+resultado[bordes>0]=[255,0,0]#colorea los bordes detectados de color azul
 
 
 plt.figure(figsize=(10,5))
